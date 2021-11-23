@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 django = "==3.2.8"
+pillow = "==8.3.2"
 
 [dev-packages]
 

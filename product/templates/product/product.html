@@ -1,0 +1,10 @@
+<h1>{{ product.title }}</h1>
+
+<p>{{ product.description }}</p>
+<span><b>{{ product.price }}</b> PLN</span>
+<span>{{ product.category }}</span>
+<span>{{ product.subcategory }}</span>
+
+{% if product.image %}
+<img src="{{ product.image.url }}" alt="{{ product.title }}">
+{% endif %}
